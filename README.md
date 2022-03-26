@@ -70,7 +70,7 @@
 - Para usar dentro dos labs, todo vez que se logar, insira o pen-drive, abra o VirtualBox e adicione a sua máquina, que está salva no pen drive
 
 ## 2
-- Escolha um site e uma distribuição e faça o download
+- Escolha um site e uma distribuição e faça o download. Guarde em um pen drive
 
 ![osboxes_fedora.png](/images/osboxes_fedora.png)
 
@@ -80,7 +80,7 @@
 
 ![fedora_info.png](/images/fedora_info.png)
 
-- Dentro do lab, crie uma nova máquina virtual no VirtualBox, e selecione a distribuição baixada como disco virtual
+- Dentro do lab, insira o pen drive, crie uma nova máquina virtual no VirtualBox, e selecione a distribuição baixada como disco virtual
 
 ![fedora_vm.png](/images/fedora_vm.png)
 
@@ -109,6 +109,6 @@
 
 ![vboxmanage_command.png](/images/vboxmanage_command.png)
 
-- Dentro do lab, crie uma nova máquina no VirtualBox e selecione para usar o .vdi criado
+- Dentro do lab, insira o pen drive, crie uma nova máquina no VirtualBox e selecione para usar o .vdi criado
 
 ![usb_vdi.png](/images/usb_vdi.png)
