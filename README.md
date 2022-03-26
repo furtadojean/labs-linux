@@ -3,7 +3,7 @@
 # Como usar linux dentro dos labs da USP?
 - Pré-requisitos
     - Ter o [VirtualBox](https://www.virtualbox.org/wiki/Downloads) instalado (ou usar um pc de um lab, que já possui)
-    - Ter um pen-drive com memória suficiente (~8GB)
+    - Ter um pen drive com memória suficiente (~8GB)
 
 
 ## Maneira 1 - Normal [Clique para o passo-a-passo](#1)
@@ -20,10 +20,10 @@
 
 ![fedora_neofetch.png](/images/fedora_neofetch.png)
 
-## Maneira 3 - A partir de um pen-drive [Clique para o passo-a-passo](#3)
-1. Instalar a distribuição em um pen-drive
+## Maneira 3 - A partir de um pen drive [Clique para o passo-a-passo](#3)
+1. Instalar a distribuição em um pen drive
 2. Criar algum tipo de partição de permanência para salvar arquivos
-3. Criar uma imagem do pen-drive e convertê-la para VDI
+3. Criar uma imagem do pen drive e convertê-la para VDI
 4. Criar uma nova máquina virtual no VirtualBox, selecionando a opção de usar um disco rígido virtual existente
 
 ![tails_neofetch.png](/images/tails_neofetch.png)
@@ -34,7 +34,7 @@
 
 ![debian_download.png](/images/debian_download.png)
 
-- Durante a criação de uma nova máquina no VirtualBox, selecione uma pasta dentro do seu pen-drive, pois o arquivo .vdi será colocado lá
+- Durante a criação de uma nova máquina no VirtualBox, selecione uma pasta dentro do seu pen drive, pois o arquivo .vdi será colocado lá
 
 ![vm_folder.png](/images/vm_folder.png)
 
@@ -67,7 +67,7 @@
 ![main_repository.png](/images/main_repository.png)
 
 - Se o VirtualBox não permite mudar o tamanho da tela, normalmente é possível fazer isso dentro das configurações do sistema, mesmo lugar no qual se encontram personalização de tema e outras configurações relevantes
-- Para usar dentro dos labs, todo vez que se logar, insira o pen-drive, abra o VirtualBox e adicione a sua máquina, que está salva no pen drive
+- Para usar dentro dos labs, todo vez que se logar, insira o pen drive, abra o VirtualBox e adicione a sua máquina, que está salva no pen drive
 
 ## 2
 - Escolha um site e uma distribuição e faça o download. Guarde em um pen drive
@@ -87,23 +87,23 @@
 ![fedora_vdi.png](/images/fedora_vdi.png)
 
 ## 3
-- Essa é uma opção para quem já tem um sistema no pen-drive e quer copia-lo para usar no VirtualBox. Tentar configurar para bootar direto do pen-drive no VirtualBox, ou instalar o VMware - que possui acesso a essa funcionalidade mais facilmente - nos labs são alternativas que requerem direitos de administrador
+- Essa é uma opção para quem já tem um sistema no pen drive e quer copia-lo para usar no VirtualBox. Tentar configurar para bootar direto do pen drive no VirtualBox, ou instalar o VMware - que possui acesso a essa funcionalidade mais facilmente - nos labs são alternativas que requerem direitos de administrador
 1. No meu caso, usei o [Tails](https://tails.boum.org/), que já possui a opção de criar uma partição persistente e criptografada. Para rodar ele dessa forma, é necessário teclar tab na inicialização e deletar a entrada "live-media=removable"
 
 ![tails_partitions.png](/images/tails_partitions.png)
 
 ![tails_config.png](/images/tails_config.png)
 
-2. Porém, outros métodos incluem criar uma nova partição com o espaço que sobrou no pen-drive e salvar arquivos importantes nela;
+2. Porém, outros métodos incluem criar uma nova partição com o espaço que sobrou no pen drive e salvar arquivos importantes nela;
 
 ![partitioning.png](/images/partitioning.png)
 
-3. ou usar algum programa para criação de pen-drives bootaveis que possua essa funcionalidade, como o Rufus (caso ainda não tenha o sistema no pen-drive)
-- Para criar uma imagem a partir do pen-drive, o gnome-disks no linux pode ser usado. Para Windows, aparentemente, há vários programas que fazem o mesmo
+3. ou usar algum programa para criação de pen drives bootaveis que possua essa funcionalidade, como o Rufus (caso ainda não tenha o sistema no pen drive)
+- Para criar uma imagem a partir do pen drive, o gnome-disks no linux pode ser usado. Para Windows, aparentemente, há vários programas que fazem o mesmo
 
 ![create_disk_image.png](/images/create_disk_image.png)
 
-- Para converter a imagem do pen-drive para .vdi, insira o comando (alterando para os nomes dos seus arquivos). É interessante guardar o .vdi em um pen drive para levar à universidade
+- Para converter a imagem do pen drive para .vdi, insira o comando (alterando para os nomes dos seus arquivos). É interessante guardar o .vdi em um pen drive para levar à universidade
     - vboxmanage convertdd sua_imagem.img novo_disco.vdi
     - Dentro do Windows, o caminho completo do programa precisa ser escrito (usualmente C:\Program Files\Oracle\VirtualBox\vboxmanage)
 
